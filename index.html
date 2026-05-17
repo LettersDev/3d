@@ -14,13 +14,15 @@
 
     <!-- El componente mágico de Google -->
     <model-viewer 
-        src="Avocado.glb" 
-        ar 
-        ar-modes="webxr scene-viewer quick-look" 
-        camera-controls 
-        tone-mapping="neutral" 
-        shadow-intensity="1">
-    </model-viewer>
+    src="tu_tarjeta.glb" 
+    ar 
+    camera-controls 
+    auto-rotate 
+    rotation-per-second="30deg"
+    shadow-intensity="1"
+    environment-image="neutral"
+    interaction-prompt="auto">
+</model-viewer>
 
 </body>
 </html>
